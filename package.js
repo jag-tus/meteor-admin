@@ -1,7 +1,7 @@
 Package.describe({
   name: "jag82:yogiben-admin",
   summary: "Yogben admin tool without publishing the user collection",
-  version: "1.2.8",
+  version: "1.3.0",
   git: "https://github.com/jag-tus/meteor-admin"
 });
 
