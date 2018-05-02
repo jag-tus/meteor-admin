@@ -1,8 +1,8 @@
 Package.describe({
-  name: "yogiben:admin",
-  summary: "A complete admin dashboard solution",
+  name: "jag82:yogiben-admin",
+  summary: "Yogben admin tool without publishing the user collection",
   version: "1.2.8",
-  git: "https://github.com/yogiben/meteor-admin"
+  git: "https://github.com/jag-tus/meteor-admin"
 });
 
 Package.on_use(function(api){
