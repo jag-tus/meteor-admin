@@ -1,7 +1,7 @@
 Package.describe({
   name: "jag82:yogiben-admin",
   summary: "Yogben admin tool without publishing the user collection",
-  version: "1.3.0",
+  version: "1.3.1",
   git: "https://github.com/jag-tus/meteor-admin"
 });
 
@@ -58,10 +58,10 @@ Package.on_use(function(api){
     'lib/client/js/autoForm.coffee'
     ], 'client');
 
-  api.add_files([
-    'lib/server/publish.coffee',
-    'lib/server/methods.coffee'
-    ], 'server');
+  // api.add_files([
+    // 'lib/server/publish.coffee',
+    // 'lib/server/methods.coffee'
+    // ], 'server');
 
   api.export('AdminDashboard',both)
 });
